@@ -1,0 +1,13 @@
+@media (min-width: 992px) {
+    .nav {
+      margin-left: 50%;
+      height: 50px;
+    }
+  }
+
+.navbar{
+    background-color: #DBFFDF;
+}
+.nav-logo {
+    color: green;
+}

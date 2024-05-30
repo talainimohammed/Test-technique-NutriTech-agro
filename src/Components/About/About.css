@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+.about{
+    background-color: #DBFFDF;
+    height: 500px;
+}
+
+.about h1{
+    padding-top: 5%;
+    padding-left: 9%;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+.about p{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-left: 15%;
+    word-spacing: 1em;
+    line-height: 2.5;
+}
+@media screen and (max-width: 900px){
+    .about p{
+        word-spacing: 0.6em;
+        line-height: 1.2;
+    }
+}

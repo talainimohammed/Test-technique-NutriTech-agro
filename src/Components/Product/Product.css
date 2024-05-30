@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+.product{
+    width: 20%;
+    height: 65%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+}
+.product h1{
+    font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.productlogo{
+    width: 50%;
+    height: 60%;
+    margin-left: 25%;
+}
+
+.price{
+    font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.review{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.2rem;
+}
+.review a{
+    margin-left: 37%;
+}

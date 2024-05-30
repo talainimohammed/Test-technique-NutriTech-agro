@@ -1,0 +1,19 @@
+.homeproduct{
+    height: 500px;
+}
+.homeproduct h1{
+    padding-top: 5%;
+    padding-left: 9%;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Inknut Antiqua', serif;
+}
+.homeproduct .btn{
+    background-color: #56FF5D;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-size: 1.5rem;
+    font-family: 'Inknut Antiqua', serif;
+}
