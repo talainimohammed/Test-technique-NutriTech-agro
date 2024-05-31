@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Order from '../Components/Order/Order';
+import Contact from '../Components/Contact/Contact';
 const Cart = () => {
     return (
         <div>
-            {/* Your code here */}
+            <Order />
+            <Contact />
         </div>
     );
 };

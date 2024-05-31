@@ -17,3 +17,37 @@
     font-size: 1.5rem;
     font-family: 'Inknut Antiqua', serif;
 }
+
+.productstyle{
+    width: 20%;
+    height: 340px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    float: left;
+}
+.productstyle h1{
+    font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.productstyle .productlogo{
+    width: 50%;
+    height: 60%;
+    margin-left: 25%;
+}
+.productstyle .price{
+    font-family: 'Inknut Antiqua', serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.productstyle .review{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 1.5rem;
+}
+.productstyle .review a{
+    margin-left: 40%;
+}

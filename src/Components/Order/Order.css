@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+.order{
+    width: 100%;
+    height: 1500px;
+    overflow: auto;
+}
+
+.order h1{
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.list-product {
+    width: 50%;
+    height: 80%;
+    float: left;
+}
+.product-order{
+    background-color: #DBFFDF;
+    width: 90%;
+    height: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.product-order .product-image{
+    width: 100px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+.product-order .product-image img{
+    width: 100%;
+    height: 100%;
+}
+.product-order .product-information{
+    width: 70%;
+    height: 150px;
+    margin-top: 20px;
+    float: right;
+}
+.product-order .product-information a{
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.product-order .product-information p{
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.product-order .product-quantity{
+    width: 35%;
+    height: 30px;
+    margin-top: 35px;
+    float: left;
+}
+.product-order .product-quantity .minus{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.product-order .product-quantity .minus img{
+    width: 100%;
+    height: 100%;
+}
+.product-order .product-quantity .counter{
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 5px;
+}
+.product-order .product-quantity .plus{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.product-order .product-quantity .plus img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-order .delete-product-cart{
+    width: 10%;
+    height: 30px;
+    margin-top: 35px;
+    float: right;
+}
+.product-order .delete-product-cart img{
+    width: 100%;
+    height: 100%;
+}
+.reciever-information {
+    width: 50%;
+    height: 40%;
+    float: right;
+    background-color: #DBFFDF;
+
+}
+.reciever-information h2{
+    font-family: 'Inknut Antiqua', serif;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.reciever-information div{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3px;
+}
+.reciever-information div input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+}
+.reciever-information div textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+}
+.reciever-information .total-price{
+    width: 90%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inknut Antiqua', serif;
+}
+.reciever-information .total-price span{
+    margin-left: 30px;
+}
+
+.order-button button{
+    width: 80%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 20px;
+    background-color: #F96565;
+    border: none;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
