@@ -11,7 +11,7 @@ const Navbarcomponent = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto nav justify-content-end">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#about">A Propos</Nav.Link>
+            <Nav.Link href="/#about">A Propos</Nav.Link>
             <Nav.Link href="/products">Nos Produits</Nav.Link>
             <Nav.Link href="#contactus">Contacter Nous</Nav.Link>
             <Nav.Link href="/cart"><img src={cart} alt="cart" height={30} /></Nav.Link>
