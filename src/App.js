@@ -4,6 +4,8 @@ import {BrowserRouter as Router, Route, Switch, BrowserRouter, Routes} from 'rea
 import Home from './Pages/Home';
 import Products from './Pages/Products';
 import Cart from './Pages/Cart';
+import AdminDashboard from './AdminDashboard/Admin'
+import Login from './AdminDashboard/Components/Login/Login'
 function App() {
   return (
     <div className='body'>
@@ -15,6 +17,8 @@ function App() {
             <Route path=':productid' element={<Products />} />
           </Route>
           <Route path='cart' element={<Cart />} />
+          <Route path='admin' element={<AdminDashboard />} />
+          <Route path='login' element={<Login />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -3,7 +3,6 @@ import Header from '../Components/Header/Header';
 import About from '../Components/About/About';
 import Homeproducts from '../Components/Homeproducts/Homeproducts';
 import Contact from '../Components/Contact/Contact';
-import ProductInfo from '../Components/Productinfos/ProductInfo';
 const Home = () => {
     return (
         <div>
@@ -11,7 +10,6 @@ const Home = () => {
             <About />
             <Homeproducts />
             <Contact />
-            <ProductInfo />
         </div>
     );
 };
