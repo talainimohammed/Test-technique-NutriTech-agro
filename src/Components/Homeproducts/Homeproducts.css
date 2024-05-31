@@ -32,9 +32,9 @@
     font-weight: 600;
 }
 .productstyle .productlogo{
-    width: 50%;
-    height: 60%;
-    margin-left: 25%;
+    width: 70%;
+    height: 100%;
+    margin-left: 2%;
 }
 .productstyle .price{
     font-family: 'Inknut Antiqua', serif;
