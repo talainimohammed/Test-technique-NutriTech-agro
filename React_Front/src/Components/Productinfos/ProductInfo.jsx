@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState }  from 'react';
 import './ProductInfo.css';
-import ProductImage from '../Assets/agrosol-k12.png';
 import Star from '../Assets/star.png';
 const ProductInfo = ({productItem}) => {
     const [showInfo, setShowInfo] = useState(true);
@@ -25,7 +24,7 @@ const ProductInfo = ({productItem}) => {
     return (
         <div className='product-info'>
             <div className='product-info-image'>
-                <img src={'http://127.0.0.1:8000'+productItem.image} alt="agrosol-k12" />
+                <img src={'https://djangobackend-a2a0ae47b6ab.herokuapp.com'+productItem.image} alt="agrosol-k12" />
             </div>
             <div className='product-info-text'>
                 <h2>{productItem.name}</h2>
