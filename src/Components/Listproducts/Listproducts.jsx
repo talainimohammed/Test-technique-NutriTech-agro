@@ -10,6 +10,7 @@ const productStyle = {
 const Listproducts = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
+
     const fetchData = async () => {
         try {
           const result = await Productservice.getProducts();
@@ -30,8 +31,8 @@ const Listproducts = () => {
     return (
         <div className='listproducts'>
             <h1>Nos Produits</h1>
-            {data.map((item, index) => (
-                <Product className='product' key={index} name={item.name} description={item.description} price={item.price} image={item.image} />
+            {data.map((item) => (
+                <Product className='product' productItem={item}/>
             ))}
         </div>
     );

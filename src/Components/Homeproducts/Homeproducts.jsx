@@ -26,7 +26,7 @@ const Homeproducts = () => {
         <div className='homeproduct'>
             <h1>Nos Produits</h1>
             {data.map((item, index) => (
-                <Product className='productstyle' key={index} name={item.name} description={item.description} price={item.price} image={item.image} />
+                <Product className='productstyle' productItem={item} />
             ))}
             <a href='/products' className='btn'>Voir tous les produits</a>
         </div>

@@ -1,0 +1,1 @@
+web: gunicorn nutritechbackend.wsgi --log-file -

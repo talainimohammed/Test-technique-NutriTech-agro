@@ -43,7 +43,9 @@
     font-weight: 600;
 
 }
-
+.productstyle .flip-card-back{
+    color: black;
+}
 .productstyle .review{
     font-family: 'Inknut Antiqua', serif;
     font-size: 1.5rem;

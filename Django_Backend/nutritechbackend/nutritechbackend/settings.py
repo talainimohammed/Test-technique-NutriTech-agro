@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
+
 import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,8 +27,7 @@ SECRET_KEY = 'django-insecure-1xgkz!oo3)k=@50-@yy=g&(tfn^6)=$%m)hjm(!_ofj7bb5@$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['djangobackend-a2a0ae47b6ab.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -80,11 +81,11 @@ WSGI_APPLICATION = 'nutritechbackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nutritechdb',
-        'USER': 'nutritechdb_user',
-        'PASSWORD': 'JtcwI5sTqJqVJet4hDHdei3gYrObsO7f',
-        'HOST': 'dpg-cpcu2om74orc73f61b80-a.oregon-postgres.render.com',
-        'PORT': '5432',
+        'NAME': config('DATABASE_NAME'),
+        'USER': config('DATABASE_USER'),
+        'PASSWORD': config('DATABASE_PASSWORD'),
+        'HOST': config('DATABASE_HOST'),
+        'PORT': config('DATABASE_PORT', default='5432'),
     }
 }
 
@@ -131,4 +132,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'media')
