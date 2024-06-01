@@ -16,7 +16,7 @@ const Product = ({className,productItem}) => {
                 <div className='flip-card'>
                     <div className='flip-card-inner'>
                         <div className='flip-card-front'>
-                            <img className='productlogo' src={'https://djangobackend-a2a0ae47b6ab.herokuapp.com'+productItem.image} alt="produitlogo"/>
+                            <img className='productlogo' src={'http://localhost:8000'+productItem.image} alt="produitlogo"/>
                         </div>
                         <div className='flip-card-back'>
                             <h1>Product Information</h1> 

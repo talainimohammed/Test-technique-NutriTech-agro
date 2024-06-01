@@ -50,7 +50,7 @@ const ListProduct = () => {
                                             <td>{item.name}</td>
                                             <td>{item.price}</td>
                                             <td>{item.stock}</td>
-                                            <td><img src={"https://djangobackend-a2a0ae47b6ab.herokuapp.com/"+item.image} height={50} alt="product logo" /></td>
+                                            <td><img src={"http://localhost:8000"+item.image} height={50} alt="product logo" /></td>
 
                                             <td>
                                             <button onClick={async() => {

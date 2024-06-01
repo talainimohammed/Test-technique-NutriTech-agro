@@ -24,7 +24,7 @@ const ProductInfo = ({productItem}) => {
     return (
         <div className='product-info'>
             <div className='product-info-image'>
-                <img src={'https://djangobackend-a2a0ae47b6ab.herokuapp.com'+productItem.image} alt="agrosol-k12" />
+                <img src={'http://localhost:8000'+productItem.image} alt="agrosol-k12" />
             </div>
             <div className='product-info-text'>
                 <h2>{productItem.name}</h2>
