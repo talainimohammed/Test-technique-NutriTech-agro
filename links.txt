@@ -1,0 +1,8 @@
+Figma
+https://www.figma.com/design/x9XzvbHuvdWEgMxRvjOaBT/Website?node-id=0-1&t=yjlAmCWvE9dtFAAu-1
+
+Backend
+https://djangobackend-a2a0ae47b6ab.herokuapp.com/
+
+FrontEnd
+https://nutrifront-71642f5c45d7.herokuapp.com/products
