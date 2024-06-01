@@ -2,20 +2,23 @@
 
 ## REACTJS Website
 
-Ce projet contient la partie FrontEnd Realise avec ReactJS
+Ce projet contient la partie Frontend réalisée avec ReactJS.
 
-## Comment Executer le projet
+## Comment exécuter le projet
 
-### Installation des Dependances
-   -Pour installer les depandences execute cette commande dans votre terminale 
+### Installation des dépendances
+
+   -Pour installer les dépendances, exécutez cette commande dans votre terminal :
+
         `npm install`
 
-### Pour demarrer le projet 
-    - pour lancer le projet execute cette commande dans votre terminale 
+### Pour démarrer le projet
+    - Pour lancer le projet, exécutez cette commande dans votre terminal :
+
         `npm start`
 
-### Pour acceder a Admin Dashboard pour ajouter et supprimer des produits
-    -Dans votre url ajouter /login et apres un authentification reussi vous serai redirige vers la page admin
+### Pour accéder à l'Admin Dashboard pour ajouter et supprimer des produits
+    -Ajoutez /login à votre URL et, après une authentification réussie, vous serez redirigé vers la page d'administration.
         Exemple : "http://localhost:8000/login/"
         Test informations :
             Username : admin

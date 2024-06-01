@@ -2,20 +2,20 @@
 
 ## Django Backend
 
-Ce projet contient la partie Backend Realise avec Django Rest template
+Ce projet contient la partie backend réalisée avec Django Rest Framework.
 
 ## Comment Executer le projet
 
 ### Installation des Dependances
-   -Pour installer les depandences execute cette commande dans votre terminale 
+   -Pour installer les dépendances, exécutez cette commande dans votre terminal : 
         `pip install -r requirements.txt`
 
 ### Pour demarrer le projet 
-    - pour lancer le projet execute cette commande dans votre terminale 
+    - pour lancer le projet execute cette commande dans votre terminal
         `python manage.py runserver`
 
 ### Pour Modifier les informations de base de donnee
-    -Pour Modifier les informations de base de donnee accede au fichier setting.py dans le repertoire nutritechbackend et ajouter ces information :
+    -Pour modifier les informations de la base de données, accédez au fichier settings.py dans le répertoire nutritechbackend et ajoutez ces informations :
         `DATABASE_NAME=nutritechdb`
         `DATABASE_USER=nutritechdb_user`
         `DATABASE_PASSWORD=pass`
@@ -23,10 +23,10 @@ Ce projet contient la partie Backend Realise avec Django Rest template
         `DATABASE_PORT=5432`
 
 ### Information sur L'API
-    - Pour acceder a l'api ajouter a votre url '/api/v1':
-        *pour Afficher tous les produit  '/products'
+    - Pour accéder à l'API, ajoutez '/api/v1' à votre URL.:
+        *pour afficher tous les produit  '/products'
         *pour ajouter produit '/addproduct'
         *pour supprimer produit '/deleteproduct/{id_product}'
-        
+
 
 
