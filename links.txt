@@ -6,3 +6,6 @@ https://djangobackend-a2a0ae47b6ab.herokuapp.com/
 
 FrontEnd
 https://nutrifront-71642f5c45d7.herokuapp.com/products
+
+Video
+https://youtu.be/s5pxBeRS8Co

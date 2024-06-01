@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-1xgkz!oo3)k=@50-@yy=g&(tfn^6)=$%m)hjm(!_ofj7bb5@$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangobackend-a2a0ae47b6ab.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['djangobackend-a2a0ae47b6ab.herokuapp.com', 'localhost','127.0.0.1']
 
 # Application definition
 
@@ -131,5 +131,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_URL = '/media/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/'
+STATIC_ROOT = os.path.join(BASE_DIR, '')
